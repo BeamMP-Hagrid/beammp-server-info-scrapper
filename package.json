@@ -1,0 +1,27 @@
+{
+  "name": "beammp-server-info-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon scrapper.js",
+    "start:prod": "node scrapper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciochemes/beammp-server-info-scrapper.git"
+  },
+  "keywords": [],
+  "author": "Ignacio Gonzalez Chemes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignaciochemes/beammp-server-info-scrapper/issues"
+  },
+  "homepage": "https://github.com/ignaciochemes/beammp-server-info-scrapper#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "puppeteer": "^19.4.1"
+  }
+}

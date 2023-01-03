@@ -1,0 +1,11 @@
+{
+  "beamServer": {
+    "version": "v3.1.1"
+  },
+  "beamGame": {
+    "version": "v4.7.1"
+  },
+  "beamLauncher": {
+    "version": "v2.0.82"
+  }
+}
